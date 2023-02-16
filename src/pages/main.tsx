@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import BackgroundImage from 'src/assets/images/doctor-background-image.jpg'
-import RareSkinDisease from 'src/assets/images/skin-disease.png'
-import SwiperImage1 from 'src/assets/images/swiper-image1.png'
-import SwiperImage2 from 'src/assets/images/swiper-image2.png'
+import SwiperImage1 from 'src/assets/images/slider1.png'
+import SwiperImage2 from 'src/assets/images/slider2.png'
+import SwiperImage3 from 'src/assets/images/slider3.png'
+import SwiperImage4 from 'src/assets/images/slider4.png'
 import { A11y, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper'
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -25,27 +25,26 @@ function Main() {
         spaceBetween={50}
         slidesPerView={1}
         autoplay={{
-          delay: 1700,
+          delay: 2000,
           disableOnInteraction: false,
         }}
         loop
       >
         <SwiperSlide>
-          <Image src={BackgroundImage} alt="images" />
+          <Image src={SwiperImage1} alt="images" className="w-full" />
         </SwiperSlide>
 
         <SwiperSlide>
-          <Image src={RareSkinDisease} alt="images" className="w-full" />
+          <Image src={SwiperImage2} alt="images" className="w-full" />
         </SwiperSlide>
 
         <SwiperSlide>
-          <Image src={SwiperImage1} alt="images" />
+          <Image src={SwiperImage3} alt="images" className="w-full" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={SwiperImage2} alt="images" />
+          <Image src={SwiperImage4} alt="images" className="w-full" />
         </SwiperSlide>
       </Swiper>
-      {/* <Image src={BackgroundImage} alt="images" /> */}
     </div>
   )
 }

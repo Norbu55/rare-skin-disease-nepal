@@ -13,9 +13,9 @@ module.exports = {
         center: true,
         padding: {
           sm: '16px',
-          md: '32px',
-          lg: '48px',
-          xl: '64px',
+          md: '18px',
+          lg: '20px',
+          xl: '24px',
         },
       },
       colors: {

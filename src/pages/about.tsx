@@ -1,9 +1,11 @@
 import { Footer, Header } from '@/components'
-
+import Image from 'next/image'
+import AboutSectionImage from 'src/assets/images/about-image-doctor.png'
 function About() {
   return (
     <div>
       <Header />
+      <Image src={AboutSectionImage} alt="about-section-image" />
       <article className="container mx-auto grid gap-y-[40px] mt-[40px] relative">
         <div
           style={{
