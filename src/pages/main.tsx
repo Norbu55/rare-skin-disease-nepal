@@ -49,8 +49,8 @@ function Main() {
         </SwiperSlide>
       </Swiper>
       <div className="bg-blue-50   flex my-[50px]">
-        <div className="flex container mx-auto gap-[30px] flex-wrap p-[20px]">
-          <div className=" w-[50%]  p-[20px] mt-[150px]">
+        <div className="flex container mx-auto justify-between flex-wrap p-[20px]">
+          <div className="p-[20px] xl:mt-[220px] lg:mt-[100px] md:mt-[20px] sm:mt-[15px] w-[700px]">
             <h2 className="text-3xl text-blue-900 font-semibold">Rare Disease</h2>
             <h2 className="text-justify text-lg">
               Rare diseases are a group of diseases or syndromes that are often chronic in nature and usually life-threatening. Majority of these diseases are genetic in nature, hence present by
@@ -64,7 +64,9 @@ function Main() {
               Learn more
             </button>
           </div>
-          <Image src={RareDiseaseImage} alt="rare-disease-image" className="h-[400px] w-[40%]" />
+          <div>
+            <Image src={RareDiseaseImage} alt="rare-disease-image" className="xl:w-[650px] mt-[20px]" />
+          </div>
         </div>
       </div>
     </>
