@@ -27,7 +27,7 @@ function Contact() {
 
       <div className="container mx-auto bg-blue-50 my-[50px] py-[30px] text-center rounded-[8px]">
         <h2 className="text-4xl  font-semibold text-blue-900 ">Need Some Help ?</h2>
-        <div className="flex  rounded-[4px] items-center py-[30px] justify-evenly">
+        <div className="flex  rounded-[4px] items-center py-[30px] justify-evenly flex-wrap">
           <Image src={ContactImage} alt="image" />
           <div>
             {contactData.map((item, index) => {
