@@ -7,17 +7,7 @@ function About() {
       <Header />
       <Image src={AboutSectionImage} alt="about-section-image" />
       <article className="container mx-auto grid gap-y-[40px] mt-[40px] relative">
-        <div
-          style={{
-            position: 'absolute',
-            width: '700px',
-            height: '239px',
-            bottom: '200px',
-            right: '90px',
-            background: '#F20F10',
-            filter: `blur(200px)`,
-          }}
-        />
+        <div className="w-[700px] absolute h-[239px] bottom-[40%] right-[90px] bg-[#F20F10] blur-[200px]" />
         <h2 className="text-3xl font-semibold text-blue-900">What is rare disease (RD)?</h2>
         <div className="text-justify grid gap-y-[30px] text-lg mb-[50px]">
           <ul className="flex flex-col gap-y-[30px]">

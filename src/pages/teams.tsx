@@ -82,7 +82,8 @@ function Teams() {
         <h2 className="xl:text-4xl md:text-4xl sm:text-3xl my-[30px] text-blue-700 font-semibold ">
           Meet The <span className="text-black ">Team</span>
         </h2>
-        <div className="flex   justify-center flex-wrap  gap-y-[80px] gap-x-[60px]  mb-[80px]">
+
+        <div className="flex flex-wrap gap-y-[80px] gap-x-[60px] w-1/4 max-w-1/4 sm:w-auto sm:flex-initial sm:mr-2 my-[50px]">
           {AvatarData.map((item, index) => {
             return <Avatar image={item.image} title={item.title} role={item.role} alt={item.alt} key={index} email={item.email} />
           })}
