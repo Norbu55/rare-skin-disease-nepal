@@ -79,11 +79,11 @@ function Teams() {
       <Header />
       <Image src={GroupDoctorImage} alt="doctor-image" className="w-full" />
       <div className="container mx-auto text-center">
-        <h2 className="xl:text-4xl md:text-4xl sm:text-3xl my-[30px] text-blue-700 font-semibold ">
+        <h2 className="text-4xl my-[30px] text-blue-700 font-semibold ">
           Meet The <span className="text-black ">Team</span>
         </h2>
 
-        <div className="flex flex-wrap gap-y-[80px] gap-x-[60px] w-1/4 max-w-1/4 sm:w-auto sm:flex-initial sm:mr-2 my-[50px]">
+        <div className="flex flex-wrap gap-y-[80px] gap-x-[60px] justify-center my-[50px] ">
           {AvatarData.map((item, index) => {
             return <Avatar image={item.image} title={item.title} role={item.role} alt={item.alt} key={index} email={item.email} />
           })}

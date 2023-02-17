@@ -9,15 +9,10 @@ module.exports = {
         lg: '976px',
         xl: '1440px',
       },
-      container: {
-        center: true,
-        padding: {
-          sm: '10px',
-          md: '16px',
-          lg: '20px',
-          xl: '24px',
-        },
-      },
+      // container: {
+      //   center: true,
+      //   // padding:calc(100%-14px)
+      // },
       colors: {
         'red-100': '#F20F10',
         'blue-50': '#F3F7FB',
