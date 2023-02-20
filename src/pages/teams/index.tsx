@@ -1,9 +1,10 @@
 import { Avatar, Footer, Header } from '@/components'
 import Image from 'next/image'
 import Avatar1 from 'src/assets/images/avatar1.png'
-import Avatar2 from 'src/assets/images/avatar2.png'
 import Avatar4 from 'src/assets/images/avatar4.png'
 import GroupDoctorImage from 'src/assets/images/doctor-group.png'
+import RabindraImage from 'src/assets/images/rabindra.png'
+import RushamaImage from 'src/assets/images/rushma.png'
 
 const AvatarData = [
   {
@@ -17,7 +18,7 @@ const AvatarData = [
   },
   {
     id: 2,
-    image: Avatar2,
+    image: RushamaImage,
     alt: 'avatar image',
     href: '/teams/rushma',
     title: 'Dr. Rushma Shrestha',
@@ -35,7 +36,7 @@ const AvatarData = [
   },
   {
     id: 4,
-    image: Avatar1,
+    image: RabindraImage,
     alt: 'avatar image',
     href: '/teams/rabindra',
     title: 'Dr. Rabindra Baskota',
@@ -46,9 +47,9 @@ const AvatarData = [
     id: 5,
     image: Avatar4,
     alt: 'avatar image',
-    href: '/teams/smiti',
+    href: '/teams/smita',
     title: 'Dr. Smita Joshi',
-    role: 'Pediatric Dermatologist',
+    role: 'MD & Pediatric Dermatologist',
     info: 'View profile',
   },
 ]

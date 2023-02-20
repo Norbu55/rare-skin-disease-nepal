@@ -1,12 +1,12 @@
-// import React from 'react'
-// import Teams from './index';
 import { Footer, Header } from '@/components'
+import Image from 'next/image'
 
 function TeamsDetail() {
   return (
-    <div>
+    <>
       <Header />
       <div className="container mx-auto my-[40px]">
+        <Image src="" alt="" className="h-[330px] w-[350px] border-blue-200" />
         <article>
           <h2 className="text-3xl font-semibold text-blue-900">Dr. Niraj Parajuli</h2>
           <div className="text-justify grid gap-y-[30px] text-lg mt-[30px]">
@@ -31,7 +31,7 @@ function TeamsDetail() {
         </article>
         <article>
           <h2 className="text-3xl font-semibold text-blue-900 mt-[30px]">Publications</h2>
-          <ul className="text-justify grid gap-y-[30px] text-lg mt-[30px] list-decimal pl-[30px]">
+          <ul className="text-justify grid gap-y-[20px] text-lg mt-[30px] list-decimal pl-[30px]">
             <li>
               Joshi AB, Banjara MR, Das ML, Ghale P, Pant KR, Parajuli N, et al. (2023) Prevalence of post kala-azar dermal leishmaniasis (PKDL) and treatment seeking behavior of PKDL patients in
               Nepal. PLoS Negl Trop Dis 17(2): e0011138.
@@ -186,7 +186,7 @@ function TeamsDetail() {
         </article>
       </div>
       <Footer />
-    </div>
+    </>
   )
 }
 
