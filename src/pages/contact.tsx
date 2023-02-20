@@ -1,5 +1,5 @@
 import { AddressSvg, EmailSvg, PhoneSvg } from '@/assets/svg'
-import { ContactDetail, Footer, Header } from '@/components'
+import { ContactDetail } from '@/components'
 import Image from 'next/image'
 import ContactImage from 'src/assets/images/contact-image.png'
 const contactData = [
@@ -23,8 +23,6 @@ const contactData = [
 function Contact() {
   return (
     <>
-      <Header />
-
       <div className="container mx-auto bg-blue-50 my-[50px] py-[30px] text-center rounded-[8px]">
         <h2 className="text-4xl  font-semibold text-blue-900 ">Need Some Help ?</h2>
         <div className="flex  rounded-[4px] items-center py-[30px] justify-evenly flex-wrap">
@@ -41,8 +39,6 @@ function Contact() {
           className="mb-[30px] border border-blue-200 w-full h-[600px]"
         />
       </div>
-
-      <Footer />
     </>
   )
 }

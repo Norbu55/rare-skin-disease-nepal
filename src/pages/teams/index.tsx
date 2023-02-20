@@ -1,4 +1,4 @@
-import { Avatar, Footer, Header } from '@/components'
+import { Avatar } from '@/components'
 import Image from 'next/image'
 import Avatar1 from 'src/assets/images/avatar1.png'
 import Avatar4 from 'src/assets/images/avatar4.png'
@@ -57,7 +57,6 @@ const AvatarData = [
 function Teams() {
   return (
     <>
-      <Header />
       <Image src={GroupDoctorImage} alt="doctor-image" className="w-full" />
       <div className="container mx-auto text-center">
         <h2 className="text-4xl my-[30px] text-blue-700 font-semibold ">
@@ -70,7 +69,6 @@ function Teams() {
           })}
         </div>
       </div>
-      <Footer />
     </>
   )
 }

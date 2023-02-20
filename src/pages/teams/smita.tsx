@@ -1,11 +1,9 @@
-import { Footer, Header } from '@/components'
 import Image from 'next/image'
 // import Prajwal from './prajwal'
 
 function Smita() {
   return (
     <>
-      <Header />
       <div className="container mx-auto my-[40px]">
         <Image src="" alt="" className="h-[330px] w-[350px] border-blue-200" priority />
         <article>
@@ -19,7 +17,6 @@ function Smita() {
           </p>
         </article>
       </div>
-      <Footer />
     </>
   )
 }

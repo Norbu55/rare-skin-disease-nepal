@@ -1,12 +1,10 @@
 // import React from 'react'
 // import Teams from './index';
-import { Footer, Header } from '@/components'
 import Image from 'next/image'
 import RushamaImage from 'src/assets/images/rushma.png'
 function Rushma() {
   return (
     <>
-      <Header />
       <div className="container mx-auto my-[40px]">
         <Image src={RushamaImage} alt="dr.rushma image" className="h-[330px] w-[350px]" priority />
         <article>
@@ -19,7 +17,6 @@ function Rushma() {
           </p>
         </article>
       </div>
-      <Footer />
     </>
   )
 }

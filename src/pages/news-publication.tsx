@@ -1,9 +1,6 @@
-import { Footer, Header } from '@/components'
-
 function PublicationNews() {
   return (
     <>
-      <Header />
       <div className="container mx-auto my-[30px]">
         <h2 className="text-3xl text-blue-900 mt-[20px]">Rare Skin News</h2>
         <div className="mt-[30px]">
@@ -47,7 +44,6 @@ function PublicationNews() {
           </ul>
         </div>
       </div>
-      <Footer />
     </>
   )
 }

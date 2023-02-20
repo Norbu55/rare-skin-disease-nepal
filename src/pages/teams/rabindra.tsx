@@ -1,10 +1,8 @@
-import { Footer, Header } from '@/components'
 import Image from 'next/image'
 import RabindraImage from 'src/assets/images/rabindra.png'
 function Rabindra() {
   return (
     <>
-      <Header />
       <div className="container mx-auto my-[40px]">
         <Image src={RabindraImage} alt="dr.rushma image" className="h-[330px] w-[350px]" priority />
         <article>
@@ -98,7 +96,6 @@ function Rabindra() {
           </ul>
         </article>
       </div>
-      <Footer />
     </>
   )
 }

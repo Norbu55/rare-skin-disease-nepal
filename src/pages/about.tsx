@@ -1,10 +1,8 @@
-import { Footer, Header } from '@/components'
 import Image from 'next/image'
 import AboutSectionImage from 'src/assets/images/slider6.png'
 function About() {
   return (
     <div>
-      <Header />
       <Image src={AboutSectionImage} alt="about-section-image" className="w-full" />
       <article className="container mx-auto  grid gap-y-[40px] mt-[40px]">
         <h2 className="text-3xl font-semibold text-blue-900">What is rare disease (RD)?</h2>
@@ -76,8 +74,6 @@ function About() {
           </h2>
         </div>
       </article>
-
-      <Footer />
     </div>
   )
 }

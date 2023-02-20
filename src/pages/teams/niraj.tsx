@@ -1,10 +1,8 @@
-import { Footer, Header } from '@/components'
 import Image from 'next/image'
 
 function TeamsDetail() {
   return (
     <>
-      <Header />
       <div className="container mx-auto my-[40px]">
         <Image src="" alt="" className="h-[330px] w-[350px] border-blue-200" priority />
         <article>
@@ -73,10 +71,7 @@ function TeamsDetail() {
             <li>Tiwari S, Koirala P, Shrestha S, Parajuli N. Prevalence of skin cancer based on skin biopsies in Bir hospital, Nepal. Journal of Pathology of Nepal. 2022 Mar 31;12(1):1914-7.</li>
             <li>
               <b>Parajuli N</b>, Shrestha R, Lama L, Karki A. Recurrent Herpes Zoster in an Immunocompetent Male: A Case Report. J Nepal Med Assoc [Internet]. 2021Nov.15 [cited
-              2021Nov.29];59(243):1180-1. Available from:{' '}
-              <a href="https://www.jnma.com.np/jnma/index.php/jnma/article/view/6629" target="_blank" className="text-blue-700 underline">
-                https://www.jnma.com.np/jnma/index.php/jnma/article/view/6629
-              </a>
+              2021Nov.29];59(243):1180-1.
             </li>
             <li>
               Paudel S, Parajuli N, Dahal S, Paudel S. Sexually Transmitted Infections in A Tertiary Hospital of Kathmandu: A Retrospective Study. Nepal Journal of Dermatology, Venereology &amp;
@@ -185,7 +180,6 @@ function TeamsDetail() {
           </ul>
         </article>
       </div>
-      <Footer />
     </>
   )
 }
