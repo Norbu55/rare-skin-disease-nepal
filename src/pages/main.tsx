@@ -1,57 +1,13 @@
+import { Slider } from '@/components'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import MeetingImage from 'src/assets/images/meeting.png'
 import RareDiseaseImage from 'src/assets/images/rare-disease.jpg'
-import SwiperImage2 from 'src/assets/images/slider2.png'
-import SwiperImage3 from 'src/assets/images/slider3.png'
-import SwiperImage4 from 'src/assets/images/slider4.png'
-import SwiperImage7 from 'src/assets/images/slider7.png'
-import SwiperImage8 from 'src/assets/images/slider8.png'
-import { A11y, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper'
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
-import 'swiper/css/scrollbar'
-import { Swiper, SwiperSlide } from 'swiper/react'
-
 function Main() {
   const router = useRouter()
   return (
     <>
-      <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-        style={{
-          width: '100%',
-          display: 'flex',
-          height: '60%',
-          objectFit: 'cover',
-        }}
-        navigation
-        spaceBetween={50}
-        slidesPerView={1}
-        autoplay={{
-          delay: 2000,
-          disableOnInteraction: false,
-        }}
-        loop
-      >
-        <SwiperSlide>
-          <Image src={SwiperImage2} alt="images" className="w-full" />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image src={SwiperImage3} alt="images" className="w-full" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={SwiperImage4} alt="images" className="w-full" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={SwiperImage7} alt="images" className="w-full" />
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Image src={SwiperImage8} alt="images" className="w-full" />
-        </SwiperSlide>
-      </Swiper>
+      <Slider />
       <div className="bg-blue-50   flex my-[50px]">
         <div className="flex container mx-auto justify-between flex-wrap p-[20px]">
           <div className="p-[20px] xl:mt-[220px] lg:mt-[100px] md:mt-[20px] sm:mt-[15px] w-[700px]">
@@ -70,6 +26,24 @@ function Main() {
           </div>
           <div>
             <Image src={RareDiseaseImage} alt="rare-disease-image" className="xl:w-[650px] mt-[20px]" />
+          </div>
+        </div>
+      </div>
+      <div className="flex my-[50px]">
+        <div className="flex container mx-auto flex-wrap p-[20px] justify-between">
+          <div>
+            <Image src={MeetingImage} alt="rare-disease-image" className=" mt-[20px]" />
+          </div>
+          <div className="p-[20px] xl:mt-[100px] lg:mt-[100px] md:mt-[20px] sm:mt-[15px] w-[640px]">
+            <h2 className="text-3xl text-blue-900 font-semibold">First Consultative Meeting on Rare Disease</h2>
+            <h2 className="text-justify text-lg">
+              On February 2022, the first national consultative meeting was organized at the leprosy control and disability management section with the theme “ A Global Priority for Equity”. Dr Niraj
+              Parajuli presented on various aspects of rare disease and its impact on persons living with a rare disease. The session was chaired by the Director General, Department of Health
+              Services, Ministry of Health and Population, Kathmandu, Nepal. It was also attended by Director of Epidemiology and Disease Control Division, Curative Service Division and Nepal Health
+              Training Center. It was moderated by the Section Chief of LCDMS, Dr Rabindra Baskota. It was also a platform where patients with rare disease shared their problems to dignitaries of the
+              ministry of health and population. An informal discussion looking into problems faced by the patients with xeroderma pigmentosa were elaborated by patient and family members during the
+              meeting.
+            </h2>
           </div>
         </div>
       </div>
