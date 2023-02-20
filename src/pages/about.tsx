@@ -1,13 +1,12 @@
 import { Footer, Header } from '@/components'
 import Image from 'next/image'
-import AboutSectionImage from 'src/assets/images/about-image-doctor.png'
+import AboutSectionImage from 'src/assets/images/slider6.png'
 function About() {
   return (
     <div>
       <Header />
-      <Image src={AboutSectionImage} alt="about-section-image" />
-      <article className="container mx-auto  grid gap-y-[40px] mt-[40px] relative">
-        <div className="w-[700px] absolute h-[239px] bottom-[40%] right-[90px] bg-[#F20F10] blur-[200px]" />
+      <Image src={AboutSectionImage} alt="about-section-image" className="w-full" />
+      <article className="container mx-auto  grid gap-y-[40px] mt-[40px]">
         <h2 className="text-3xl font-semibold text-blue-900">What is rare disease (RD)?</h2>
         <div className="text-justify grid gap-y-[30px] text-lg mb-[50px]">
           <ul className="flex flex-col gap-y-[30px]">

@@ -13,7 +13,7 @@ function Header() {
         <Image src={Logo} alt="rare-skin-nepal-logo" height="150" width="150" />
         <h2 className="xl:text-4xl text-blue-700 font-semibold lg:text-3xl md:text-2xl sm:text-xl">RARE SKIN DISEASE NEPAL</h2>
       </div>
-      <nav className="bg-blue-700">
+      <nav className="bg-blue-700 ">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -24,7 +24,7 @@ function Header() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="pt-[10px]">
             <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'p-12 md:p-0 block' : 'hidden'}`}>
               <ul className=" md:h-auto items-center justify-center md:flex">
                 <li className="pb-6 text-xl text-white py-2 md:px-6 text-center border-b-2 md:border-b-0">
@@ -45,7 +45,7 @@ function Header() {
                 </li>
                 <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0">
                   <Link href="/news-publication" onClick={() => setNavbar(!navbar)}>
-                    <h2 className={styles.underline}> Blogs </h2>
+                    <h2 className={styles.underline}> News + Publication</h2>
                   </Link>
                 </li>
                 <li className="pb-6 text-xl text-white py-2 px-6 text-center  border-b-2 md:border-b-0">

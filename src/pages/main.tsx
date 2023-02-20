@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import RareDiseaseImage from 'src/assets/images/rare-disease.jpg'
-import SwiperImage1 from 'src/assets/images/slider1.png'
 import SwiperImage2 from 'src/assets/images/slider2.png'
 import SwiperImage3 from 'src/assets/images/slider3.png'
 import SwiperImage4 from 'src/assets/images/slider4.png'
+import SwiperImage7 from 'src/assets/images/slider7.png'
+import SwiperImage8 from 'src/assets/images/slider8.png'
 import { A11y, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper'
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -34,10 +35,6 @@ function Main() {
         loop
       >
         <SwiperSlide>
-          <Image src={SwiperImage1} alt="images" className="w-full" />
-        </SwiperSlide>
-
-        <SwiperSlide>
           <Image src={SwiperImage2} alt="images" className="w-full" />
         </SwiperSlide>
 
@@ -46,6 +43,13 @@ function Main() {
         </SwiperSlide>
         <SwiperSlide>
           <Image src={SwiperImage4} alt="images" className="w-full" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image src={SwiperImage7} alt="images" className="w-full" />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Image src={SwiperImage8} alt="images" className="w-full" />
         </SwiperSlide>
       </Swiper>
       <div className="bg-blue-50   flex my-[50px]">
