@@ -2,7 +2,6 @@ import { Avatar, Footer, Header } from '@/components'
 import Image from 'next/image'
 import Avatar1 from 'src/assets/images/avatar1.png'
 import Avatar2 from 'src/assets/images/avatar2.png'
-import Avatar3 from 'src/assets/images/avatar3.png'
 import Avatar4 from 'src/assets/images/avatar4.png'
 import GroupDoctorImage from 'src/assets/images/doctor-group.png'
 
@@ -11,73 +10,41 @@ const AvatarData = [
     id: 1,
     image: Avatar1,
     alt: 'avatar image',
-    title: 'Dr. Edward Gomez',
-    role: 'Surgeon',
+    title: 'Dr. Niraj Parajuli',
+    role: 'Senior Consultant Dermatologist & Assistant Professor',
     info: 'View profile',
-    // email: 'xyz@gmail.com',
   },
   {
     id: 2,
     image: Avatar2,
     alt: 'avatar image',
-    title: 'Dr.Nita Sharma',
-    role: 'Dentist',
+    title: 'Dr. Rushma Shrestha',
+    role: 'Senior Dermatologist',
     info: 'View profile',
-    // email: 'xyz@gmail.com',
   },
   {
     id: 3,
-    image: Avatar3,
+    image: Avatar1,
     alt: 'avatar image',
-    title: 'Dr.Nikita Thapa',
-    role: 'Dentist',
+    title: 'Dr. Prajwal Pudasaini',
+    role: 'Dermatologist & Aesthetic Surgeon',
     info: 'View profile',
-    // email: 'xyz@gmail.com',
   },
   {
     id: 4,
-    image: Avatar4,
+    image: Avatar1,
     alt: 'avatar image',
-    title: 'Dr.Neha Budhathoki',
-    role: 'Dentist',
+    title: 'Dr. Rabindra Baskota',
+    role: 'Senior Consultant Dermatologist',
     info: 'View profile',
-    // email: 'xyz@gmail.com',
   },
   {
     id: 5,
     image: Avatar4,
     alt: 'avatar image',
-    title: 'Dr.Ram Shrestha',
-    role: 'Dentist',
+    title: 'Dr. Smita Joshi',
+    role: 'Pediatric Dermatologist',
     info: 'View profile',
-    // email: 'xyz@gmail.com',
-  },
-  {
-    id: 6,
-    image: Avatar3,
-    alt: 'avatar image',
-    title: 'Dr.Harry Lautner',
-    role: 'Dentist',
-    info: 'View profile',
-    // email: 'xyz@gmail.com',
-  },
-  {
-    id: 7,
-    image: Avatar2,
-    alt: 'avatar image',
-    title: 'Dr. Prem Sharma',
-    role: 'Dentist',
-    info: 'View profile',
-    // email: 'xyz@gmail.com',
-  },
-  {
-    id: 8,
-    image: Avatar2,
-    alt: 'avatar image',
-    title: 'Dr.Nisha Gautam',
-    role: 'Dentist',
-    info: 'View profile',
-    // email: 'xyz@gmail.com',
   },
 ]
 
