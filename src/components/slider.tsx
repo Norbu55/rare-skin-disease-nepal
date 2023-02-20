@@ -31,21 +31,21 @@ function Slider() {
       loop
     >
       <SwiperSlide>
-        <Image src={SwiperImage2} alt="images" className="w-full" />
+        <Image src={SwiperImage2} alt="images" className="w-full" priority />
       </SwiperSlide>
 
       <SwiperSlide>
-        <Image src={SwiperImage3} alt="images" className="w-full" />
+        <Image src={SwiperImage3} alt="images" className="w-full" priority />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={SwiperImage4} alt="images" className="w-full" />
+        <Image src={SwiperImage4} alt="images" className="w-full" priority />
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={SwiperImage7} alt="images" className="w-full" />
+        <Image src={SwiperImage7} alt="images" className="w-full" priority />
       </SwiperSlide>
 
       <SwiperSlide>
-        <Image src={SwiperImage8} alt="images" className="w-full" />
+        <Image src={SwiperImage8} alt="images" className="w-full" priority />
       </SwiperSlide>
     </Swiper>
   )

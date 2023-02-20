@@ -6,7 +6,7 @@ function TeamsDetail() {
     <>
       <Header />
       <div className="container mx-auto my-[40px]">
-        <Image src="" alt="" className="h-[330px] w-[350px] border-blue-200" />
+        <Image src="" alt="" className="h-[330px] w-[350px] border-blue-200" priority />
         <article>
           <h2 className="text-3xl font-semibold text-blue-900">Dr. Niraj Parajuli</h2>
           <div className="text-justify grid gap-y-[30px] text-lg mt-[30px]">

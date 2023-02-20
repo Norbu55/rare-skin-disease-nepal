@@ -10,7 +10,7 @@ function Header() {
   return (
     <div>
       <div className="container mx-auto flex items-center justify-around ">
-        <Image src={Logo} alt="rare-skin-nepal-logo" height="150" width="150" />
+        <Image src={Logo} alt="rare-skin-nepal-logo" height="150" width="150" priority />
         <h2 className="xl:text-4xl text-blue-700 font-semibold lg:text-3xl md:text-2xl sm:text-xl">RARE SKIN DISEASE NEPAL</h2>
       </div>
       <nav className="bg-blue-700 ">

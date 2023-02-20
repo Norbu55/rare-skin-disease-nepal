@@ -61,7 +61,7 @@ function Main() {
             </h2>
           </div>
           <div>
-            <Image src={ButterflyAwarenessImage} alt="rare-disease-image" className="xl:w-[650px] mt-[150px]" />
+            <Image src={ButterflyAwarenessImage} alt="rare-disease-image" className="xl:w-[650px] mt-[150px]" priority />
           </div>
         </div>
       </div>
