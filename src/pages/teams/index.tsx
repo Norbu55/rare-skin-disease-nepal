@@ -1,7 +1,7 @@
 import { Avatar } from '@/components'
 import Image from 'next/image'
-import Avatar1 from 'src/assets/images/avatar1.png'
 import GroupDoctorImage from 'src/assets/images/doctor-group.png'
+import NirajImage from 'src/assets/images/niraj.png'
 import PrajwalImage from 'src/assets/images/prajwal.png'
 import RabindraImage from 'src/assets/images/rabindra.png'
 import RushamaImage from 'src/assets/images/rushma.png'
@@ -11,7 +11,7 @@ import SuwashImage from 'src/assets/images/suwash.png'
 const AvatarData = [
   {
     id: 1,
-    image: Avatar1,
+    image: NirajImage,
     alt: 'avatar image',
     title: 'Dr. Niraj Parajuli',
     href: '/teams/niraj',
