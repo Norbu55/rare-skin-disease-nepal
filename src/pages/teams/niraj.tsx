@@ -34,9 +34,7 @@ function TeamsDetail() {
               Joshi AB, Banjara MR, Das ML, Ghale P, Pant KR, Parajuli N, et al. (2023) Prevalence of post kala-azar dermal leishmaniasis (PKDL) and treatment seeking behavior of PKDL patients in
               Nepal. PLoS Negl Trop Dis 17(2): e0011138.
               <br />
-              <a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0011138" target="_blank" className="text-blue-700 underline">
-                https://doi.org/10.1371/journal.pntd.0011138
-              </a>
+              https://doi.org/10.1371/journal.pntd.0011138
             </li>
             <li>
               <b>Parajuli N. </b> Symmetrical Drug-Related Intertriginous and Flexural Exanthema caused by Oral Cefadroxil in a Patient with Hepatitis B-Induced Liver Cirrhosis and Psoriasis Vulgaris.
@@ -71,7 +69,8 @@ function TeamsDetail() {
             <li>Tiwari S, Koirala P, Shrestha S, Parajuli N. Prevalence of skin cancer based on skin biopsies in Bir hospital, Nepal. Journal of Pathology of Nepal. 2022 Mar 31;12(1):1914-7.</li>
             <li>
               <b>Parajuli N</b>, Shrestha R, Lama L, Karki A. Recurrent Herpes Zoster in an Immunocompetent Male: A Case Report. J Nepal Med Assoc [Internet]. 2021Nov.15 [cited
-              2021Nov.29];59(243):1180-1.
+              2021Nov.29];59(243):1180-1. Available from: <br />
+              https://www.jnma.com.np/jnma/index.php/jnma/article/view/6629
             </li>
             <li>
               Paudel S, Parajuli N, Dahal S, Paudel S. Sexually Transmitted Infections in A Tertiary Hospital of Kathmandu: A Retrospective Study. Nepal Journal of Dermatology, Venereology &amp;

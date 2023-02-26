@@ -1,11 +1,12 @@
 import Image from 'next/image'
+import SmitaImage from 'src/assets/images/smita.png'
 // import Prajwal from './prajwal'
 
 function Smita() {
   return (
     <>
       <div className="container mx-auto my-[40px]">
-        <Image src="" alt="" className="h-[330px] w-[350px] border-blue-200" priority />
+        <Image src={SmitaImage} alt="dr.rushma image" className="h-[330px] w-[300px]" priority />
         <article>
           <h2 className="text-3xl font-semibold text-blue-900 mt-[30px]">Dr. Smita Joshi</h2>
           <p className="text-justify grid gap-y-[30px] text-lg mt-[20px]">

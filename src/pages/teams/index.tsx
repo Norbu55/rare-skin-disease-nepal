@@ -1,10 +1,12 @@
 import { Avatar } from '@/components'
 import Image from 'next/image'
 import Avatar1 from 'src/assets/images/avatar1.png'
-import Avatar4 from 'src/assets/images/avatar4.png'
 import GroupDoctorImage from 'src/assets/images/doctor-group.png'
+import PrajwalImage from 'src/assets/images/prajwal.png'
 import RabindraImage from 'src/assets/images/rabindra.png'
 import RushamaImage from 'src/assets/images/rushma.png'
+import SmitaImage from 'src/assets/images/smita.png'
+import SuwashImage from 'src/assets/images/suwash.png'
 
 const AvatarData = [
   {
@@ -27,7 +29,7 @@ const AvatarData = [
   },
   {
     id: 3,
-    image: Avatar1,
+    image: PrajwalImage,
     alt: 'avatar image',
     href: '/teams/prajwal',
     title: 'Dr. Prajwal Pudasaini',
@@ -45,11 +47,20 @@ const AvatarData = [
   },
   {
     id: 5,
-    image: Avatar4,
+    image: SmitaImage,
     alt: 'avatar image',
     href: '/teams/smita',
     title: 'Dr. Smita Joshi',
     role: 'MD & Pediatric Dermatologist',
+    info: 'View profile',
+  },
+  {
+    id: 6,
+    image: SuwashImage,
+    alt: 'avatar image',
+    href: '/teams/suwash',
+    title: 'Dr. Suwash Baral',
+    role: 'Dermatopathologist',
     info: 'View profile',
   },
 ]
